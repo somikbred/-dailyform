@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles3.css">
+    <title>Sign in</title>
+</head>
+<body>
+    <div class="container">
+        <form class="form" action="" method="POST" enctype="text/plain">
+            <div class="form__header">
+                <a href="#" class="header__link">Sign in</a>
+                <a href="#" class="header__link">Join us</a>
+            </div>
+            <div class="form__data">
+                <lable class="data__lable" for="text">Username</lable>
+                <input class="data__input" type="text" validate required>
+                <lable class="data__lable" for="password">Password</lable>
+                <input class="data__input" type="password" validate required>
+            </div>
+            <div class="form__checkbox">
+                <input class="checkbox__box" type="checkbox" value="none">
+                <label class="checkbox__label">Keep me signed in</label>
+            </div>
+            <button class="form__btn" type="submit">Sign in</button>
+            <div class="form__help">
+                <a href="#" class="help__link">Forgot password</a>
+                <a href="#" class="help__link">Create an account</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
