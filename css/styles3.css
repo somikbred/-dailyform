@@ -30,6 +30,7 @@ body {
     background-image: url(../img/Vector_Smart_Object.png), linear-gradient(32deg, #3023ae 0%, #c86dd7 100%);
     background-repeat: no-repeat;
     background-position: center;
+    box-shadow: -10px 60px 70px -30px #000000;
 }
 
 .form {
@@ -91,12 +92,16 @@ body {
 .checkbox__box {
     width: 16px;
     height: 16px;
-    background-color: #23ae92;
     appearance: none;
     -webkit-appearance: none;
-    /* background-image: url(../img/check.png);
-    background-repeat: no-repeat;
-    background-position: center; */
+    border: 1px solid rgba(191, 185, 204, 0.54);
+}
+
+.checkbox__box:focus,
+.checkbox__box:active {
+    background-image: url(../img/check.png);
+    background-position: center;
+    background-size: contain;    
 }
 
 .checkbox__label {
@@ -104,6 +109,7 @@ body {
     font-size: 1.3rem;
     padding: 1px 7px;
     letter-spacing: 1px;
+    align-items: top;
 }
 
 .form__btn {
