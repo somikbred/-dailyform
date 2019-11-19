@@ -27,13 +27,11 @@ body {
     padding: 15px 20px 0;
 }
 
-.row {
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
 .form__header {
     display: flex;
+}
+
+.info {
 }
 
 .header__img {
@@ -42,14 +40,16 @@ body {
 }
 
 .header_title {
+    display: inline-block;
     color: #1b1c1d;
     font-size: 2.4rem;
     font-weight: bold;
 }
 
 .header_subtitle {
+    display: inline-block;
     font-size: 1.3rem;
-    margin-bottom: 2%;
+    margin: 0 4% 2%;
 }
 
 .header__link {
@@ -65,13 +65,20 @@ body {
     border-radius: 5px;
     margin: 2% 1.5%;
 }
+.name__input, .login__input::placeholder {
+    padding: 10px;
+}
 
 .name__input {
-    width: 45%;
+    width: 45.5%;
 }
 
 .login__input {
     width: 95%;
+}
+
+.login__input::placeholder {    
+    padding: 10px;
 }
 
 .btn {
@@ -84,9 +91,11 @@ body {
     color: #fff;
     font-size: 1.8rem;
     font-weight: bold;
-    margin: 1.5% 2% 6%;
+    margin: 1.5% 1.8% 6%;
 }
 
 .subsubtitle {
+    display: block;
     font-size: 1.3rem;
+    padding: 0 7px;
 }
